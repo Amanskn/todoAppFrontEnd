@@ -1,0 +1,186 @@
+::selection {
+    /* color: rgb(169, 44, 44); */
+    color: rgb(176, 157, 44);
+    /* background-color: rgb(148, 179, 116); */
+    background-color: rgba(26, 24, 24, 0.921);
+}
+body{
+    background-color: rgba(26, 24, 24, 0.921);
+}
+main{
+    padding: 30px;
+    width: 70%;
+    min-height: 100vh;
+    box-shadow: 0px 0px 12px 15px gold;
+    margin: auto;
+    background-color: rgba(175, 168, 168, 0.904);
+   border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+.individual{
+    margin: 5px;
+}
+main>#heading{
+    border-bottom: 4px solid pink;
+    border-radius: 0px 0px 30px 0px;
+    text-align: center;
+}
+main>#heading span{
+    padding: 5px 50px;
+    border-bottom:8px solid brown;
+    border-radius: 0px 0px 30px 0px;
+}
+
+#description-container{
+    border-bottom: 4px solid pink;
+    border-radius: 0px 0px 30px 0px;
+    padding: 4px;
+    height: 60px;
+}
+#description-container span{
+    /* border: 2px solid pink; */
+    margin-left: 6px;
+}
+#description-container input{
+    font-size: 1.2rem;
+    color: brown;
+    width: 400px;
+    padding: 6px;
+    border: none;
+    background: transparent;
+    /* border-bottom: 2px solid crimson; */
+}
+#description-container input:focus{
+    outline: none;
+}
+
+/* ----------- */
+#category-duedate-container{
+    margin-top: 5px;
+    border-bottom: 4px solid black;
+    border-radius: 0px 0px 30px 0px;
+    display: flex;
+    height: 60px;
+    padding: 2px;
+}
+#category-duedate-container>div{
+    width: 50%;
+
+    /* border: 2px solid brown; */
+}
+#category-container select,#dueDate-container input{
+    padding: 3px;
+    font-size: 1.2rem;
+    background-color: rgb(120, 113, 113);
+    color: pink;
+    border: none;
+    border-radius:20px ;
+}
+#category-container select:focus{
+    outline: none;
+}
+
+
+
+
+#form-container #both-buttons{
+    border-bottom: 4px solid black;
+    border-radius: 0px 0px 30px 0px;
+    height: 50px;
+    padding: 7px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#form-container #both-buttons>button{
+    border: none;
+    border-radius: 25px;
+    /* padding: 10px; */
+    font-size: 1.5rem;
+    background-color: rgb(120, 113, 113);
+    color: pink;
+    transition: all 0.1s;
+
+    
+}
+#form-container #both-buttons #add-btn:hover{
+    background-color:rgb(17, 112, 17);
+    color: rgb(176, 187, 148);
+    cursor: pointer;
+        
+}
+#form-container #both-buttons #delete-btn:hover{
+    background-color:rgb(158, 38, 38);
+    color: rgb(179, 189, 153);
+    cursor: pointer;
+        
+}
+#form-container #both-buttons>button:active{
+    transform: scale(0.7);
+        
+}
+
+
+main>#tasks-container{
+    margin-top: 50px;
+    border-bottom:8px solid brown;
+    border-radius: 0px 0px 30px 0px;
+    padding-bottom: 10px;
+    /* border-radius: 20px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+main>#tasks-container .task{
+    border-bottom: 4px solid rgb(210, 166, 33);
+    padding-bottom: 5px;
+    margin: 5px;
+    /* border-radius: 20px; */
+    /* height:50px ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+main>#tasks-container .task>#left{
+    border: 3px solid pink;
+    color: rgb(25, 25, 25);
+    background-color: rgb(120, 113, 113);
+    border-radius: 20px;
+    display: flex;
+    min-width: 60%;
+    
+}
+main>#tasks-container .task>#left>input[type="checkbox"]{
+   
+    margin: 10px;
+   
+    border: none;
+    height: 25px;
+    width: 25px;
+   
+
+}
+
+main>#tasks-container .task>#left>div>#des-span{
+    display: block;
+    /* border: 2px solid red; */
+    padding: 5px;
+    margin-bottom: -15px;
+    
+    /* padding-bottom: 10px; */
+    /* padding: 5px; */
+
+}
+main>#tasks-container .task>#left>div>i{
+    margin-right: 10px;
+    padding-left: 6px;
+}
+main>#tasks-container .task>#right>div{
+    /* border: 2px solid orange; */
+    padding: 8px 10px;
+    margin-right: 10px;
+    background-color: pink;
+    border-radius: 20px;
+}

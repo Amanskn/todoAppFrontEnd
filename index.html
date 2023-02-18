@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/b98405c5eb.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <main>
+        <div id="heading" class="individual">
+            <h1><span>TODO App</span></h1>
+        </div>
+
+        <div class="individual" id="form-container">
+            <!-- <form action="/" method="post"> -->
+                <div id="description-container">
+                    <span>DESCRIPTION</span><br>
+                    <input type="text" name="description" placeholder="Type here what do you need to do ?">
+                </div>
+                <div id="category-duedate-container">
+                    <div id="category-container">
+                        <span>CATEGORY</span>
+                        <br>
+                        <label for="categories">Choose a category</label>
+                        <select name="categories" id="categories">
+                            <option value="School">School</option>
+                            <option value="Work">Work</option>
+                            <option value="Home">Home</option>
+                            <option value="Office">Office</option>
+                          </select>
+                    </div>    
+                    <div id="dueDate-container">
+                        <span>DUE DATE</span><br>
+                        <input type="date">
+
+                    </div>
+
+                </div>
+                <div id="both-buttons">
+                    <button id="add-btn"><i class="fa-solid fa-plus"></i> Add Task</button>
+                    <button id="delete-btn"><i class="fa-solid fa-trash-can"></i> Delete Task</button>
+
+                </div>
+        
+            <!-- </form> -->
+            
+        </div>
+
+        <!-- This is the container to show the details -->
+        <!-- <h2>Your Tasks</h2> -->
+        <div class="individual" id="tasks-container">
+
+            
+
+        </div>
+
+        
+
+        
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
